@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Entrega Ninja",
+    "constante": 0.3,
+    "dimensao": {
+      "alt_min": 10,
+      "alt_max": 200,
+      "larg_min": 6,
+      "larg_max": 140
+    },
+    "prazo": 6
+  },
+  {
+    "nome": "Entrega KaBuM",
+    "constante": 0.2,
+    "dimensao": {
+      "alt_min": 5,
+      "alt_max": 140,
+      "larg_min": 13,
+      "larg_max": 125
+    },
+    "prazo": 4
+  }
+]
