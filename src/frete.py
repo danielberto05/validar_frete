@@ -1,7 +1,7 @@
 import json
 
 
-def getOpcoes():
+def coletar_opcoes():
     with open("./src/opcoes.json", "r") as opcoes_texto:
         opcoes = json.loads(opcoes_texto.read())
 
@@ -9,7 +9,7 @@ def getOpcoes():
 
 
 def calcular_frete(dimensao, peso):
-    opcoes_frete_disponiveis = getOpcoes()
+    opcoes_frete_disponiveis = coletar_opcoes()
     opcoes = []
 
     for opcao in opcoes_frete_disponiveis:
