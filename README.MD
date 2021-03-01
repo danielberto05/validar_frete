@@ -6,7 +6,7 @@ Esta aplicação API REST é uma demonstração usando Flask, cujo objetivo é r
 ### Funcionalidade
 
 ---
-- Validar dimenções do produto e calcular frete para cada uma das opções de transportadoras.
+- Validar dimensões do produto e calcular frete para cada uma das opções de transportadoras.
 
 
 ### Tecnologias
