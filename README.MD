@@ -1,9 +1,23 @@
 # Validar frete
 
+### Tabela de conteúdo
+
+---
+<!--ts-->
+  * [Tabela de conteúdo](#tabela-de-conteudo)
+  * [Sobre](#Sobre)
+  * [Funcionalidades](#Funcionalidades)
+  * [Tecnologias](#Tecnologias)
+  * [Melhorias futuras](#melhorias-futuras)
+  * [Exemplo de uso da API](#exemplo-de-uso-da-api)
+  * [Autor](#Autor)
+<!--te-->
+### Sobre
+
 ---
 Esta aplicação API REST é uma demonstração usando Flask, cujo objetivo é realizar a consulta de tranportadoras e cotação do frete do produto conforme especificações de dimensões e peso.
 
-### Funcionalidade
+### Funcionalidades
 
 ---
 - Validar dimensões do produto e calcular frete para cada uma das opções de transportadoras.
@@ -21,7 +35,7 @@ Esta aplicação API REST é uma demonstração usando Flask, cujo objetivo é r
 - Aplicação de validação de token para segurança usando JWT;
 - Armazenar opções de transportadoras em um banco de dado.
 
-### Exemplo do uso da API
+### Exemplo de uso da API
 
 ___
 Endpoint: <b>/consultar_frete</b>
